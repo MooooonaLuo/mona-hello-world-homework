@@ -65,7 +65,7 @@ function setup() {
                 }
             }
             box(25,25,25);
-            pop(); // Restore original state
+            pop(); // Restore original state so that each box rotates around its own center
           }
         pop();
     } 
