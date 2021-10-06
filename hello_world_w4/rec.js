@@ -13,6 +13,7 @@ function setup() {
         for (let j = 1; j < int(windowWidth/95); j++) {
             translate(90,0);
             push(); // Start a new drawing state
+            // Rotate boxes in different ways
             if(i%3 === 0){
                 if(j%3 === 0){
                     rotateZ(frameCount * 0.01);
