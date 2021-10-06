@@ -70,4 +70,3 @@ function setup() {
         pop();
     } 
   }
-//   for (let j = 1; j < int(windowWidth/68); j++) {
