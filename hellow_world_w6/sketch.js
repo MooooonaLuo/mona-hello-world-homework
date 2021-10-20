@@ -58,9 +58,9 @@ function increment() {
   ballX += ballXV;  
   ballY += ballYV;
   
-  if(millis() % 1000 == 0) {
-    ballXV = ballXV * 2;
-  }
+  // if(millis() % 1000 == 0) {
+  //   ballXV = ballXV * 2;
+  // }
 }
 
 // function mouseMoved() {
@@ -104,7 +104,7 @@ function sliderBounce1() {
 function sliderBounce2() {
   if(rect2Y < ballY && rect2Y + 120 > ballY) {
     ballXV = ballXV * -1;
-    fill('green');
+    score2 += 1;
     changeColor();
   }
 }
