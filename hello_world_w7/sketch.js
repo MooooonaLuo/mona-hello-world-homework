@@ -5,8 +5,8 @@ var w = 640;
 var h = 480;
 let ballX = 320;
 let ballY = 180;
-let xspeed = 10;
-let yspeed = 4;
+let xspeed = 8;
+let yspeed = 3;
 
 let r = 20;
 
